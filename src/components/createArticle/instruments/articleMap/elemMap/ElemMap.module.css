@@ -1,0 +1,80 @@
+.elem{
+    position: relative;
+    width: calc(100%-8px);
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    padding: 5px;
+
+    /* border: 2px solid teal;
+    border-radius: 10px;    */
+
+    border-left: 2px solid teal;
+    border-top: 2px solid teal;
+    border-bottom: 2px solid teal;
+
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.elemClose{
+    display: flex;
+    height: 50px;
+    line-height: 50px;
+}
+
+.value{
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.elemOpen{
+    height: 100px;
+}
+
+.title{
+    display: flex;
+}
+
+.buttonOpen{
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 24px;
+    text-align: center;
+    border: 2px solid teal;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.buttonEdit{
+    position: absolute;
+    top: 53px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid teal;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.idTextOpen{
+    margin-top: 15px;
+}
+
+.valueOpen{
+    width: 150px;
+    margin-top: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

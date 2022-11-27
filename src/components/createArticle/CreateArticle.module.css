@@ -1,0 +1,70 @@
+.createBlock{
+    display: flex;
+}
+
+.article{
+    width: 80%;
+    min-height: 100vh;
+    border-right: 3px solid teal;
+    background: rgb(226, 226, 226);
+}
+
+.list{
+    position: relative;
+    width: 800px;
+    height: fit-content;
+    min-height: 400px;
+    margin: 50px auto 0;
+}
+
+.notSavePart{
+    background: rgb(237, 238, 243);
+}
+
+.inputText{
+    position: fixed;
+    width: 600px;
+    height: 44px;
+    bottom: 50px;
+    left: calc(40% - 300px);
+}
+
+.instruments{
+    position: fixed;
+    right: 0;
+    width: 20%;
+    height: 100vh;
+}
+
+
+/* dataFont */
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.header{
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+.withoutLineBreak{
+    display: inline-block;
+}
+
+.nextString{
+    display: block;
+}
+
+.newParagraph{
+    margin-top: 50px;
+}

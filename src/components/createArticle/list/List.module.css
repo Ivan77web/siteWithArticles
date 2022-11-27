@@ -1,0 +1,39 @@
+.list{
+    width: 800px;
+    height: fit-content;
+    min-height: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(184, 184, 184);
+    background: white;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+
+.oneModule{
+    margin: 5px 0;
+}
+
+/* dataFont */
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.header{
+    font-size: 34px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+.withoutLineBreak{
+    display: inline-block;
+}
