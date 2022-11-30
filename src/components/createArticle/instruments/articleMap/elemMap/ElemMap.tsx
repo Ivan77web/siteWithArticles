@@ -22,22 +22,7 @@ const ElemMap: React.FC<IElemMapProps> = ({ elem }) => {
                         </div>
 
                         <div>
-                            <p>{elem.isBold ? "Жирный" : ""}</p>
-                            <p>{elem.isItalic ? "Курсив" : ""}</p>
                             <p>{elem.fontSize === "paragraph" ? "Параграф" : "Заголовок"}</p>
-                            <p>
-                                {
-                                    elem.choiceContinue === "without"
-                                        ?
-                                        "Без перевода новую строку"
-                                        :
-                                        elem.choiceContinue === "nextString"
-                                            ?
-                                            "Следующа строка"
-                                            :
-                                            "Новый параграф"
-                                }
-                            </p>
                         </div>
 
                         <div className={cl.buttons}>

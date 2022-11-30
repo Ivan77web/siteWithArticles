@@ -8,8 +8,6 @@ interface IInputBlockProps{
     dataValue: IDataValue | undefined,
     allArticle: IDataValue[] | undefined,
     setAllArticle: (value: IDataValue[]) => void,
-    setIsItalic: (value: boolean) => void,
-    setIsBold: (value: boolean) => void,
     setFontSize: (value: string) => void,
     setIsLink: (value: boolean) => void,
     setLink: (value: string) => void,
@@ -19,15 +17,12 @@ const InputBlock: React.FC<IInputBlockProps> = ({
     valueInput, setValueInput,
     dataValue, 
     allArticle, setAllArticle,
-    setIsItalic,
-    setIsBold,
     setFontSize,
     setIsLink,
     setLink,
 }) => {
-
     const addModule = () => {
-        if (dataValue) {
+        if (dataValue && dataValue.value) {
             if (allArticle) {
                 setAllArticle([...allArticle, dataValue])
             } else {
@@ -35,8 +30,6 @@ const InputBlock: React.FC<IInputBlockProps> = ({
             }
 
             setValueInput("");
-            setIsItalic(false);
-            setIsBold(false);
             setFontSize("paragraph");
             setIsLink(false);
             setLink("")

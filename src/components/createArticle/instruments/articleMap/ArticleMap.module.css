@@ -1,17 +1,13 @@
 .map{
-    /* height: 500px; */
     height: fit-content;
     max-height: 500px;
     border-top: 2px solid teal;
     border-bottom: 2px solid teal;
     border-right: 2px solid teal;
-
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-
     overflow-y: scroll;
     overflow-x: hidden;
-    /* background: red; */
 }
 
 .map::-webkit-scrollbar {

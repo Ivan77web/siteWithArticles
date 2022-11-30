@@ -5,7 +5,7 @@
     background: breen;
 }
 
-.viewText{
+/* .viewText{
     width: 210px;
     display: flex;
     justify-content: space-between;
@@ -26,24 +26,24 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-}
+} */
 
 .choiceType{
     width: 206px;
-    height: 60px;
+    height: 90px;
     margin: 0 auto;
     border: 2px solid teal;
     border-radius: 5px;
     margin-bottom: 20px;
 }
 
-.choiceContinue{
+/* .choiceContinue{
     width: 206px;
     height: 90px;
     margin: 0 auto;
     border: 2px solid teal;
     border-radius: 5px;
-}
+} */
 
 .oneChoice{
     display: flex;
@@ -84,7 +84,7 @@
 	user-select: none;    
 }
 
-.linkInput{
+/* .linkInput{
     width: 206px;
     height: 30px;
     margin-top: 10px;
@@ -94,7 +94,7 @@
     padding: 5px;
     font-size: 16px;
     outline: none;
-}
+} */
 
 .articleMap{
     width: 80%;

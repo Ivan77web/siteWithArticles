@@ -17,10 +17,6 @@
     margin: 50px auto 0;
 }
 
-.notSavePart{
-    background: rgb(237, 238, 243);
-}
-
 .inputText{
     position: fixed;
     width: 600px;
@@ -34,37 +30,4 @@
     right: 0;
     width: 20%;
     height: 100vh;
-}
-
-
-/* dataFont */
-
-.italic{
-    font-style: italic;
-}
-
-.bold{
-    font-weight: bold;
-}
-
-.header{
-    font-size: 34px;
-    font-weight: 800;
-    text-align: center;
-}
-
-.paragraph{
-    font-size: 20px;
-}
-
-.withoutLineBreak{
-    display: inline-block;
-}
-
-.nextString{
-    display: block;
-}
-
-.newParagraph{
-    margin-top: 50px;
 }
