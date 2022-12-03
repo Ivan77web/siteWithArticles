@@ -1,0 +1,33 @@
+.createBlock{
+    display: flex;
+}
+
+.article{
+    width: 80%;
+    min-height: 100vh;
+    border-right: 3px solid teal;
+    background: rgb(226, 226, 226);
+}
+
+.list{
+    position: relative;
+    width: 800px;
+    height: fit-content;
+    min-height: 400px;
+    margin: 50px auto 0;
+}
+
+.inputText{
+    position: fixed;
+    width: 600px;
+    height: 44px;
+    bottom: 50px;
+    left: calc(40% - 300px);
+}
+
+.instruments{
+    position: fixed;
+    right: 0;
+    width: 20%;
+    height: 100vh;
+}

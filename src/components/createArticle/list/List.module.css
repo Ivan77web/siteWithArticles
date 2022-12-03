@@ -1,0 +1,48 @@
+.list{
+    width: 800px;
+    height: fit-content;
+    min-height: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(184, 184, 184);
+    background: white;
+    line-height: 26px;
+    word-spacing: 3px;
+}
+
+.oneModule{
+    margin: 35px 0;
+}
+
+.oneModule:first-child{
+    margin-top: 0;
+}
+
+.header{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 12px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.subtitle{
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 500;
+}
+
+.paragraph{
+    font-size: 20px;
+}
+
+.header{
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.subtitle{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
